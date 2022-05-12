@@ -1,0 +1,129 @@
+body{
+	margin: 0;
+}
+
+.header{
+	padding-top: 35px;
+	padding-bottom: 35px;
+	text-transform: uppercase;
+	background-color: black;
+	background: linear-gradient( to right, black, darkred);
+	text-align: center;
+	color: white;
+}
+
+.box{
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/bg.png);
+	background-position: left top;
+	background-repeat: repeat-y;
+	background-size: 165px;
+}
+
+.titleBlock{
+	vertical-align: center;
+}
+
+.teamFoto{ 
+	float: left;
+	width: 250px;
+	margin: 0 15px 5px 15px;
+}
+
+
+
+.leftBlock{
+	width: 165px;
+	float: left;
+	margin: 0 auto 0 auto;
+}
+
+h2{
+	text-align: center;
+}
+
+.rightBlock{
+	margin-left: 165px;
+	margin-top: 0;
+	margin-bottom: 0;
+	background-image: url(../img/ball.png);
+	background-position: right top;
+	background-repeat: repeat-y;
+}
+
+.article{
+	margin-left: 15px;
+}
+
+.footer{
+	font-family: 'Satisfy', cursive;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	font-size: 30px;
+	text-transform: uppercase;
+	background-color: black;
+	background: linear-gradient( to right, black, darkred);
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	clear: both;
+	margin-top: 0;
+}
+
+h1{
+	text-align: center;
+	margin: 0 auto 0 auto;
+}
+
+.forza{
+	margin: 0 auto 0 auto;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 801px) {
+
+	div.header{
+		display: none;
+	}
+
+	div.footer{
+		display: none;
+
+	}
+
+	div.conteiner div.box div.rightBlock{
+		background-image: none;
+		
+	}
+
+}
+
+@media screen and (max-width: 800px)  {
+
+	div.box{
+		background-image: none;
+	}
+	div.box div.leftBlock{
+		display: none;
+	}
+
+	div.header{
+		display: none;
+	}
+
+	div.footer{
+		display: none;
+	}
+
+	div.conteiner div.box div.rightBlock{
+		background-image: none;
+		margin-left: 0;
+	}
+
+	div.conteiner div.box div.rightBlock img.teamFoto{
+
+		float: none;
+		width: 100%;
+
+	}
+}
