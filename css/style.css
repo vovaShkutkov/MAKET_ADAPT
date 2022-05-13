@@ -116,14 +116,17 @@ h1{
 	}
 
 	div.conteiner div.box div.rightBlock{
+		width: 100%;
 		background-image: none;
 		margin-left: 0;
 	}
 
 	div.conteiner div.box div.rightBlock img.teamFoto{
-
+		display: block;
+  		margin: 0 auto;
+		margin-left: 0 auto;
 		float: none;
-		width: 100%;
+		width: 90%;
 
 	}
 }
