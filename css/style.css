@@ -124,9 +124,8 @@ h1{
 	div.conteiner div.box div.rightBlock img.teamFoto{
 		display: block;
   		margin: 0 auto;
-		margin-left: 0 auto;
 		float: none;
-		width: 90%;
+		width: 100%;
 
 	}
 }
